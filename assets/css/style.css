@@ -5,8 +5,6 @@ box-sizing:border-box;
 background-color:#fafafa ;
 }
 .container {
-height: 500px;
-width: 1300px;
 text-align: center;}
 
 h1 {
@@ -102,4 +100,14 @@ display: inline;
 height:50px;
 width:50px;
 border-radius:75%;
+}
+
+@media screen and (max-width: 970px) {
+    .card-containt{
+        margin: 20px ;
+        flex-wrap: wrap;
+    }
+    .cards{
+        gap: 25px;
+    }
 }
